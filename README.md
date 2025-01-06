@@ -1,12 +1,12 @@
 # Community Graphics Generator #
 
-**CGG** is a Pentaho plugin that allows the user to export CCC/CDE charts as images, enabling the inclusion of CDE charts inside Pentaho reports. This plugin is able to render, on server-side, the same chart that is rendered on the browser by CDE/CDF.
+**CGG** is a Tahopen plugin that allows the user to export CCC/CDE charts as images, enabling the inclusion of CDE charts inside Tahopen reports. This plugin is able to render, on server-side, the same chart that is rendered on the browser by CDE/CDF.
 
 
 #### Pre-requisites for building the project:
 * Maven, version 3+
 * Java JDK 1.8
-* This [settings.xml](https://github.com/pentaho/maven-parent-poms/blob/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
+* This [settings.xml](https://github.com/tahopen/maven-parent-poms/blob/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
 
 
 #### Building it
@@ -17,7 +17,7 @@ $ mvn clean install
 ```
 
 This will build, unit test, and package the whole project (all of the sub-modules). The artifact will be generated in: ```target```
-The resulting zip package can be unzipped and dropped inside your Pentaho Server system folder.
+The resulting zip package can be unzipped and dropped inside your Tahopen Server system folder.
 
 
 #### Running the tests
