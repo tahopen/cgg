@@ -3,14 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.pentaho</groupId>
-    <artifactId>pentaho-ce-jar-parent-pom</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-ce-jar-parent-pom</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.pentaho.ctools</groupId>
+  <groupId>org.tahopen.ctools</groupId>
   <artifactId>cgg-parent</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <licenses>
     <license>
@@ -26,22 +26,17 @@
     <module>js-intl-polyfill</module>
   </modules>
 
-  <scm>
-    <connection>scm:git:git@github.com:webdetails/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:webdetails/${project.artifactId}.git</developerConnection>
-    <url>scm:git:git@github.com:webdetails/${project.artifactId}.git</url>
-  </scm>
   <properties>
     <timestamp>${maven.build.timestamp}</timestamp>
     <maven.build.timestamp.format>yyyy/MM/dd hh\:mm</maven.build.timestamp.format>
     <project.stage>master</project.stage>
 
     <rhino.version>1.7.13</rhino.version>
-    <pentaho-cpf-plugin.version>10.1.0.0-SNAPSHOT</pentaho-cpf-plugin.version>
-    <platform.version>10.1.0.0-SNAPSHOT</platform.version>
+    <pentaho-cpf-plugin.version>0.1.0.0-SNAPSHOT</pentaho-cpf-plugin.version>
+    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
     <commons-lang.version>2.6</commons-lang.version>
     <xalan.version>2.7.1</xalan.version>
-    <pentaho-cgg-plugin.version>10.1.0.0-SNAPSHOT</pentaho-cgg-plugin.version>
+    <pentaho-cgg-plugin.version>0.1.0.0-SNAPSHOT</pentaho-cgg-plugin.version>
     <mail.version>1.4.1</mail.version>
     <javax.servlet-api>3.0.1</javax.servlet-api>
   </properties>
@@ -61,7 +56,7 @@
       </dependency>
 
       <dependency>
-        <groupId>pentaho</groupId>
+        <groupId>org.tahopen</groupId>
         <artifactId>cpf-core</artifactId>
         <version>${pentaho-cpf-plugin.version}</version>
         <exclusions>
@@ -72,8 +67,8 @@
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>pentaho</groupId>
-        <artifactId>cpf-pentaho</artifactId>
+        <groupId>org.tahopen</groupId>
+        <artifactId>cpf-tahopen</artifactId>
         <version>${pentaho-cpf-plugin.version}</version>
         <exclusions>
           <exclusion>

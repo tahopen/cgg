@@ -6,12 +6,12 @@
 
   <parent>
     <artifactId>cgg-parent</artifactId>
-    <groupId>org.pentaho.ctools</groupId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen.ctools</groupId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>cgg-core</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -21,8 +21,8 @@
     <timestamp>${maven.build.timestamp}</timestamp>
     <maven.build.timestamp.format>yyyy/MM/dd hh\:mm</maven.build.timestamp.format>
 
-    <pentaho-ccc-plugin.version>10.1.0.0-SNAPSHOT</pentaho-ccc-plugin.version>
-    <pentaho-cpf-plugin.version>10.1.0.0-SNAPSHOT</pentaho-cpf-plugin.version>
+    <pentaho-ccc-plugin.version>0.1.0.0-SNAPSHOT</pentaho-ccc-plugin.version>
+    <pentaho-cpf-plugin.version>0.1.0.0-SNAPSHOT</pentaho-cpf-plugin.version>
 
     <commons-lang3.version>3.0.1</commons-lang3.version>
   </properties>
@@ -41,7 +41,7 @@
 
     <!-- default_internal (explicit) -->
     <dependency>
-      <groupId>pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>cpf-core</artifactId>
       <version>${pentaho-cpf-plugin.version}</version>
     </dependency>
@@ -218,7 +218,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.pentaho.ctools</groupId>
+      <groupId>org.tahopen.ctools</groupId>
       <artifactId>ccc</artifactId>
       <version>${pentaho-ccc-plugin.version}</version>
       <type>zip</type>
@@ -231,7 +231,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.pentaho.ctools</groupId>
+      <groupId>org.tahopen.ctools</groupId>
       <artifactId>cgg-js-intl-polyfill</artifactId>
       <version>${project.version}</version>
       <type>zip</type>

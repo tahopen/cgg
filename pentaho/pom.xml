@@ -6,12 +6,12 @@
 
   <parent>
     <artifactId>cgg-parent</artifactId>
-    <groupId>org.pentaho.ctools</groupId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen.ctools</groupId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <groupId>org.pentaho.ctools</groupId>
-  <artifactId>cgg-pentaho</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <groupId>org.tahopen.ctools</groupId>
+  <artifactId>cgg-tahopen</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
 
   <packaging>jar</packaging>
 
@@ -52,14 +52,14 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-api</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-api</artifactId>
       <version>${platform.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-core</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-core</artifactId>
       <version>${platform.version}</version>
       <scope>provided</scope>
     </dependency>
@@ -67,15 +67,15 @@
     <!-- runtime dependencies -->
 
     <dependency>
-      <groupId>pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>cpf-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>cpf-pentaho</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>cpf-tahopen</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.ctools</groupId>
+      <groupId>org.tahopen.ctools</groupId>
       <artifactId>cgg-core</artifactId>
       <version>${pentaho-cgg-plugin.version}</version>
     </dependency>
