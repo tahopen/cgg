@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-ce-jar-parent-pom</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <groupId>org.tahopen.ctools</groupId>
@@ -32,11 +32,11 @@
     <project.stage>master</project.stage>
 
     <rhino.version>1.7.13</rhino.version>
-    <pentaho-cpf-plugin.version>0.1.0.0-SNAPSHOT</pentaho-cpf-plugin.version>
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
+    <pentaho-cpf-plugin.version>0.1.0.0</pentaho-cpf-plugin.version>
+    <platform.version>0.1.0.0</platform.version>
     <commons-lang.version>2.6</commons-lang.version>
     <xalan.version>2.7.1</xalan.version>
-    <pentaho-cgg-plugin.version>0.1.0.0-SNAPSHOT</pentaho-cgg-plugin.version>
+    <pentaho-cgg-plugin.version>0.1.0.0</pentaho-cgg-plugin.version>
     <mail.version>1.4.1</mail.version>
     <javax.servlet-api>3.0.1</javax.servlet-api>
   </properties>
